@@ -32,7 +32,7 @@ export function RunningJourney() {
 
   return (
     <section id="journey" className="relative overflow-hidden py-24 md:py-32">
-      <div className="absolute inset-0 bg-gradient-to-br from-accent/5 via-transparent to-gold/5" />
+      <div className="absolute inset-0 bg-gradient-to-br from-accent/[0.03] via-transparent to-sky/[0.04]" />
       <div className="relative mx-auto max-w-7xl px-4 md:px-8">
         <SectionHeading title={t("title")} subtitle={t("subtitle")} />
 

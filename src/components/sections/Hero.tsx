@@ -8,7 +8,7 @@ import { ChevronDown } from "lucide-react";
 
 const HeroScene = dynamic(() => import("@/components/three/HeroScene").then((m) => m.HeroScene), {
   ssr: false,
-  loading: () => <div className="absolute inset-0 -z-10 bg-gradient-to-br from-accent/5 to-gold/5" />,
+  loading: () => <div className="absolute inset-0 -z-10 bg-gradient-to-br from-accent/[0.03] to-sky/[0.04]" />,
 });
 
 export function Hero() {
@@ -52,7 +52,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
-            className="max-w-lg text-base text-foreground/80 md:text-lg"
+            className="max-w-lg text-base text-foreground/75 md:text-lg"
           >
             {t("subtitle")}
           </motion.p>
@@ -64,7 +64,7 @@ export function Hero() {
           >
             <a
               href="#contact"
-              className="group inline-flex items-center gap-3 rounded-full bg-accent px-8 py-4 text-base font-semibold text-accent-foreground transition-all duration-500 hover:scale-105 hover:shadow-[0_0_40px_var(--glow)]"
+              className="group inline-flex items-center gap-3 rounded-full bg-accent px-8 py-4 text-base font-semibold text-accent-foreground transition-all duration-500 hover:shadow-[0_0_32px_var(--glow)]"
             >
               {t("cta")}
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>

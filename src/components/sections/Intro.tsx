@@ -23,7 +23,7 @@ export function Intro() {
             <p className="text-muted-foreground leading-relaxed">{t("bio")}</p>
             <p className="text-muted-foreground leading-relaxed">{t("achievements")}</p>
             <p className="font-medium leading-relaxed">{t("personalized")}</p>
-            <div className="border-l-4 border-accent pl-6 pt-2">
+            <div className="border-l-2 border-accent/50 pl-6 pt-2">
               <p className="font-display text-2xl font-bold text-gradient md:text-3xl">{t("motto")}</p>
               <p className="mt-2 text-muted-foreground">{t("mottoSub")}</p>
             </div>

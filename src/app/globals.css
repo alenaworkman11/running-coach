@@ -13,48 +13,90 @@
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
   --color-border: var(--border);
-  --color-gold: #c9a227;
-  --color-gold-light: #e8c547;
-  --color-teal: #0d9488;
-  --color-teal-light: #14b8a6;
+  --color-navy: var(--navy);
+  --color-steel: var(--steel);
+  --color-aqua: var(--aqua);
+  --color-aqua-light: var(--aqua-light);
+  --color-sky: var(--sky);
+  --color-gold: var(--aqua);
+  --color-gold-light: var(--aqua-light);
+  --color-teal: var(--steel);
+  --color-teal-light: var(--aqua);
   --font-display: "Playfair Display", Georgia, serif;
   --font-body: "DM Sans", system-ui, sans-serif;
 }
 
 :root {
-  --background: #faf9f7;
-  --foreground: #1a1a1a;
-  --muted: #f0eeea;
-  --muted-foreground: #6b6560;
-  --accent: #0d9488;
-  --accent-foreground: #ffffff;
-  --card: #ffffff;
-  --card-foreground: #1a1a1a;
-  --border: #e5e2dc;
-  --overlay-from: rgba(250, 249, 247, 0.15);
-  --overlay-via: rgba(13, 148, 136, 0.25);
-  --overlay-to: rgba(201, 162, 39, 0.2);
-  --hero-gradient: linear-gradient(135deg, rgba(250, 249, 247, 0.92) 0%, rgba(250, 249, 247, 0.6) 50%, rgba(13, 148, 136, 0.15) 100%);
-  --photo-overlay: linear-gradient(180deg, rgba(250, 249, 247, 0.1) 0%, rgba(13, 148, 136, 0.35) 45%, rgba(201, 162, 39, 0.25) 100%);
-  --glow: rgba(13, 148, 136, 0.3);
+  --background: #eef2f6;
+  --foreground: #3a4454;
+  --muted: #e4eaf0;
+  --muted-foreground: #6b7d94;
+  --accent: #6b8fae;
+  --accent-foreground: #f2f4f7;
+  --card: #f5f8fb;
+  --card-foreground: #3a4454;
+  --border: #d0dae4;
+  --navy: #2a3548;
+  --steel: #6b7d94;
+  --aqua: #7a9bb8;
+  --aqua-light: #9bb4cc;
+  --sky: #b4c9dc;
+  --hero-gradient: linear-gradient(
+    160deg,
+    rgba(238, 242, 246, 0.97) 0%,
+    rgba(228, 234, 240, 0.8) 40%,
+    rgba(107, 143, 174, 0.07) 72%,
+    rgba(180, 201, 220, 0.06) 100%
+  );
+  --photo-overlay: linear-gradient(
+    180deg,
+    rgba(238, 242, 246, 0.1) 0%,
+    rgba(107, 125, 148, 0.16) 50%,
+    rgba(155, 180, 204, 0.12) 100%
+  );
+  --glow: rgba(107, 143, 174, 0.12);
+  --aqua-glow: rgba(155, 180, 204, 0.1);
+  --mist-gradient: radial-gradient(ellipse 75% 55% at 12% 0%, rgba(107, 143, 174, 0.06) 0%, transparent 58%),
+    radial-gradient(ellipse 60% 48% at 88% 100%, rgba(180, 201, 220, 0.05) 0%, transparent 52%);
+  --ambient-gradient: var(--mist-gradient);
 }
 
 .dark {
-  --background: #0a0a0b;
-  --foreground: #f5f3ef;
-  --muted: #161618;
-  --muted-foreground: #a09a93;
-  --accent: #14b8a6;
-  --accent-foreground: #0a0a0b;
-  --card: #121214;
-  --card-foreground: #f5f3ef;
-  --border: #2a2a2e;
-  --overlay-from: rgba(10, 10, 11, 0.2);
-  --overlay-via: rgba(20, 184, 166, 0.3);
-  --overlay-to: rgba(201, 162, 39, 0.15);
-  --hero-gradient: linear-gradient(135deg, rgba(10, 10, 11, 0.95) 0%, rgba(10, 10, 11, 0.7) 50%, rgba(20, 184, 166, 0.12) 100%);
-  --photo-overlay: linear-gradient(180deg, rgba(10, 10, 11, 0.15) 0%, rgba(20, 184, 166, 0.4) 50%, rgba(201, 162, 39, 0.2) 100%);
-  --glow: rgba(20, 184, 166, 0.25);
+  --background: #151a22;
+  --foreground: #e2e6ec;
+  --muted: #1c2330;
+  --muted-foreground: #8896a8;
+  --accent: #6b8fae;
+  --accent-foreground: #141a22;
+  --card: #1a2130;
+  --card-foreground: #e2e6ec;
+  --border: #2a3344;
+  --navy: #1a2233;
+  --steel: #5a6d84;
+  --aqua: #7a9bb8;
+  --aqua-light: #9bb4cc;
+  --sky: #b4c9dc;
+  --hero-gradient: linear-gradient(
+    160deg,
+    rgba(21, 26, 34, 0.98) 0%,
+    rgba(26, 34, 51, 0.85) 35%,
+    rgba(90, 109, 132, 0.08) 65%,
+    rgba(107, 143, 174, 0.06) 82%,
+    rgba(180, 201, 220, 0.04) 100%
+  );
+  --photo-overlay: linear-gradient(
+    180deg,
+    rgba(21, 26, 34, 0.14) 0%,
+    rgba(90, 109, 132, 0.18) 48%,
+    rgba(155, 180, 204, 0.1) 100%
+  );
+  --glow: rgba(107, 143, 174, 0.1);
+  --aqua-glow: rgba(155, 180, 204, 0.08);
+  --mist-gradient: radial-gradient(ellipse 90% 60% at 50% -10%, rgba(90, 109, 132, 0.07) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 55% at 0% 60%, rgba(107, 143, 174, 0.04) 0%, transparent 50%),
+    radial-gradient(ellipse 70% 55% at 100% 90%, rgba(180, 201, 220, 0.05) 0%, transparent 48%),
+    radial-gradient(ellipse 50% 40% at 50% 50%, rgba(26, 34, 51, 0.05) 0%, transparent 62%);
+  --ambient-gradient: var(--mist-gradient);
 }
 
 * {
@@ -83,15 +125,28 @@ html.lenis body {
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
+  background-image: var(--ambient-gradient);
+  background-attachment: fixed;
   color: var(--foreground);
   font-family: var(--font-body);
   overflow-x: hidden;
-  transition: background-color 0.5s ease, color 0.5s ease;
+  transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: var(--mist-gradient);
+  filter: blur(52px);
+  opacity: 0.45;
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--accent) 35%, transparent);
+  background: color-mix(in srgb, var(--accent) 22%, transparent);
   color: var(--foreground);
 }
 
@@ -100,7 +155,13 @@ body {
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--color-gold) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--steel) 0%,
+    var(--accent) 35%,
+    var(--aqua-light) 70%,
+    var(--sky) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -115,12 +176,19 @@ body {
 }
 
 .glow-ring {
-  box-shadow: 0 0 60px var(--glow), 0 0 120px color-mix(in srgb, var(--glow) 50%, transparent);
+  box-shadow:
+    0 0 24px var(--glow),
+    0 0 56px var(--aqua-glow),
+    0 0 96px color-mix(in srgb, var(--sky) 8%, transparent);
+}
+
+.mist-glow {
+  box-shadow: 0 0 40px var(--glow), 0 0 80px var(--aqua-glow);
 }
 
 .section-divider {
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--border), transparent);
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--accent) 18%, var(--border)), transparent);
 }
 
 .noise-bg::before {
@@ -149,10 +217,10 @@ body {
 @keyframes pulse-glow {
   0%,
   100% {
-    opacity: 0.4;
+    opacity: 0.25;
   }
   50% {
-    opacity: 0.8;
+    opacity: 0.5;
   }
 }
 
@@ -177,12 +245,12 @@ body {
   rotate: -45deg;
   background: var(--accent);
   border: 2px solid var(--card);
-  box-shadow: 0 2px 8px color-mix(in srgb, var(--accent) 40%, transparent);
+  box-shadow: 0 2px 10px var(--glow);
 }
 
 .marathon-pin--active .marathon-pin__dot {
-  background: var(--color-gold);
-  box-shadow: 0 0 12px color-mix(in srgb, var(--color-gold) 60%, transparent);
+  background: var(--aqua-light);
+  box-shadow: 0 0 20px var(--aqua-glow);
 }
 
 .marathon-pin__pulse {
@@ -199,7 +267,7 @@ body {
 }
 
 .marathon-pin--active .marathon-pin__pulse {
-  background: var(--color-gold);
+  background: var(--aqua-light);
 }
 
 @keyframes marathon-pulse {

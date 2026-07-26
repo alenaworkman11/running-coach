@@ -65,7 +65,7 @@ export function Header() {
                 className={cn(
                   "rounded-full px-3 py-1.5 text-sm transition-all duration-300",
                   activeSection === item.id
-                    ? "bg-accent/10 font-medium text-accent"
+                    ? "bg-accent/8 font-medium text-accent"
                     : "text-muted-foreground hover:text-foreground"
                 )}
               >
@@ -79,7 +79,7 @@ export function Header() {
             <ThemeToggle />
             <a
               href="#contact"
-              className="hidden rounded-full bg-accent px-4 py-2 text-sm font-semibold text-accent-foreground transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_var(--glow)] md:block"
+              className="hidden rounded-full bg-accent px-4 py-2 text-sm font-semibold text-accent-foreground transition-all duration-300 hover:shadow-[0_0_24px_var(--glow)] md:block"
             >
               {t("startJourney")}
             </a>

@@ -34,7 +34,7 @@ export function WhyWorkWithMe() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
               whileHover={{ y: -6 }}
-              className="flex items-start gap-4 rounded-2xl border border-border bg-card p-6 transition-all duration-300 hover:border-accent/50 hover:shadow-lg"
+              className="flex items-start gap-4 rounded-2xl border border-border bg-card p-6 transition-all duration-300 hover:border-accent/40 hover:shadow-[0_4px_24px_var(--glow)]"
             >
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-accent/10">
                 <Check className="h-4 w-4 text-accent" />

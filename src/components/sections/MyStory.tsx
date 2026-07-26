@@ -41,7 +41,7 @@ export function MyStory() {
 
         <div className="relative mt-20">
           <div className="absolute left-4 top-0 hidden h-full w-px bg-border md:left-1/2 md:block">
-            <motion.div style={{ height: lineHeight }} className="w-full bg-gradient-to-b from-accent to-gold" />
+            <motion.div style={{ height: lineHeight }} className="w-full bg-gradient-to-b from-steel/70 via-accent/60 to-sky/45" />
           </div>
 
           <div className="space-y-24 md:space-y-32">

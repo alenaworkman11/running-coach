@@ -46,7 +46,7 @@ export function Coaching() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.06 }}
                 whileHover={{ scale: 1.03, x: 4 }}
-                className="group relative overflow-hidden rounded-2xl border border-border bg-card p-6 transition-all duration-300 hover:border-accent hover:shadow-[0_0_30px_var(--glow)]"
+                className="group relative overflow-hidden rounded-2xl border border-border bg-card p-6 transition-all duration-300 hover:border-accent/50 hover:shadow-[0_0_24px_var(--glow)]"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-accent/0 to-accent/5 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                 <span className="relative text-xs font-semibold uppercase tracking-widest text-accent">

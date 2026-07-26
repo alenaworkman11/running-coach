@@ -20,7 +20,7 @@ export function SectionHeading({ title, subtitle, align = "left", className }: S
       className={cn(align === "center" && "text-center", className)}
     >
       <div className={cn("mb-4 flex items-center gap-4", align === "center" && "justify-center")}>
-        <span className="h-px w-12 bg-gradient-to-r from-accent to-gold" />
+        <span className="h-px w-12 bg-gradient-to-r from-steel/60 via-accent/50 to-sky/40" />
         <span className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">Lena</span>
       </div>
       <h2 className="font-display text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">{title}</h2>

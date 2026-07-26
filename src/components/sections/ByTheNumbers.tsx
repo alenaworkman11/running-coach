@@ -57,7 +57,7 @@ export function ByTheNumbers() {
                 viewport={{ once: true, margin: "-30px" }}
                 transition={{ duration: 0.5, delay: i * 0.05 }}
                 whileHover={{ y: -4, scale: 1.02 }}
-                className="group relative overflow-hidden rounded-2xl border border-border bg-card p-6 transition-shadow duration-300 hover:shadow-[0_8px_40px_var(--glow)]"
+                className="group relative overflow-hidden rounded-2xl border border-border bg-card p-6 transition-shadow duration-300 hover:shadow-[0_4px_32px_var(--glow)]"
               >
                 <div className="absolute -right-4 -top-4 h-24 w-24 rounded-full bg-accent/5 transition-transform duration-500 group-hover:scale-150" />
                 <Icon className="mb-4 h-6 w-6 text-accent" />

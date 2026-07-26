@@ -74,7 +74,7 @@ export function Contact() {
             <button
               type="submit"
               disabled={submitted}
-              className="group flex w-full items-center justify-center gap-2 rounded-xl bg-accent px-6 py-4 font-semibold text-accent-foreground transition-all duration-300 hover:shadow-[0_0_30px_var(--glow)] disabled:opacity-60"
+              className="group flex w-full items-center justify-center gap-2 rounded-xl bg-accent px-6 py-4 font-semibold text-accent-foreground transition-all duration-300 hover:shadow-[0_0_24px_var(--glow)] disabled:opacity-60"
             >
               <Send className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               {submitted ? "✓" : t("send")}
