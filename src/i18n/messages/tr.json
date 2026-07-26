@@ -104,7 +104,8 @@
       "newYork": "New York"
     },
     "majorsLabel": "World Marathon Majors",
-    "mapHint": "İnteraktif harita — her yeni yarışla güncellenir"
+    "mapHint": "İnteraktif harita — her yeni yarışla güncellenir",
+    "mapHere": "Burada tamamlandı ✓"
   },
   "philosophy": {
     "title": "Felsefe",
@@ -141,8 +142,7 @@
     "name": "Adınız",
     "email": "E-posta",
     "message": "Koşu hedeflerinizi anlatın",
-    "send": "Mesaj Gönder",
-    "note": "Backend yakında — form şimdilik sadece UI."
+    "send": "Mesaj Gönder"
   },
   "footer": {
     "rights": "Tüm hakları saklıdır.",

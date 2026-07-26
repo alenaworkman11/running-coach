@@ -104,7 +104,8 @@
       "newYork": "New York"
     },
     "majorsLabel": "World Marathon Majors",
-    "mapHint": "Interactive map — updated with every new race"
+    "mapHint": "Interactive map — updated with every new race",
+    "mapHere": "Completed here ✓"
   },
   "philosophy": {
     "title": "Philosophy",
@@ -141,8 +142,7 @@
     "name": "Your Name",
     "email": "Email Address",
     "message": "Tell me about your running goals",
-    "send": "Send Message",
-    "note": "Backend integration coming soon — form is UI preview only."
+    "send": "Send Message"
   },
   "footer": {
     "rights": "All rights reserved.",

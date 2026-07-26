@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ParallaxImage } from "@/components/ui/ParallaxImage";
-import { Send } from "lucide-react";
+import { Send, Instagram } from "lucide-react";
 import { FormEvent, useState } from "react";
 
 export function Contact() {
@@ -79,7 +79,15 @@ export function Contact() {
               <Send className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               {submitted ? "✓" : t("send")}
             </button>
-            <p className="text-center text-xs text-muted-foreground">{t("note")}</p>
+            <a
+              href="https://www.instagram.com/lena_bogdanova_11"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center justify-center text-muted-foreground transition-colors hover:text-accent"
+              aria-label="Instagram"
+            >
+              <Instagram className="h-6 w-6 transition-transform group-hover:scale-110" />
+            </a>
           </motion.form>
         </div>
       </div>

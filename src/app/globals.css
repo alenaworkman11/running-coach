@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -157,4 +158,111 @@ body {
 
 .animate-pulse-glow {
   animation: pulse-glow 4s ease-in-out infinite;
+}
+
+.marathon-pin {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+
+.marathon-pin__dot {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 14px;
+  height: 14px;
+  transform: translateX(-50%);
+  border-radius: 50% 50% 50% 0;
+  rotate: -45deg;
+  background: var(--accent);
+  border: 2px solid var(--card);
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--accent) 40%, transparent);
+}
+
+.marathon-pin--active .marathon-pin__dot {
+  background: var(--color-gold);
+  box-shadow: 0 0 12px color-mix(in srgb, var(--color-gold) 60%, transparent);
+}
+
+.marathon-pin__pulse {
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  width: 14px;
+  height: 14px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.4;
+  animation: marathon-pulse 2s ease-out infinite;
+}
+
+.marathon-pin--active .marathon-pin__pulse {
+  background: var(--color-gold);
+}
+
+@keyframes marathon-pulse {
+  0% {
+    transform: translateX(-50%) scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(-50%) scale(2.5);
+    opacity: 0;
+  }
+}
+
+.marathon-popup .leaflet-popup-content-wrapper {
+  background: var(--card);
+  color: var(--card-foreground);
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 24px color-mix(in srgb, var(--foreground) 12%, transparent);
+}
+
+.marathon-popup .leaflet-popup-tip {
+  background: var(--card);
+  border: 1px solid var(--border);
+}
+
+.marathon-popup .leaflet-popup-content {
+  margin: 12px 14px;
+}
+
+.marathon-popup__city {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.marathon-popup__major {
+  margin: 4px 0 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}
+
+.marathon-popup__here {
+  margin: 6px 0 0;
+  font-size: 0.8125rem;
+  color: var(--muted-foreground);
+}
+
+.leaflet-container {
+  font-family: var(--font-body);
+  background: var(--muted);
+}
+
+.leaflet-control-attribution {
+  font-size: 10px;
+  background: color-mix(in srgb, var(--card) 85%, transparent) !important;
+  color: var(--muted-foreground) !important;
+}
+
+.leaflet-control-attribution a {
+  color: var(--accent) !important;
 }

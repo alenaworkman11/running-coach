@@ -104,7 +104,8 @@
       "newYork": "ニューヨーク"
     },
     "majorsLabel": "ワールドマラソンメジャーズ",
-    "mapHint": "インタラクティブマップ — 新しいレースごとに更新"
+    "mapHint": "インタラクティブマップ — 新しいレースごとに更新",
+    "mapHere": "ここで完走 ✓"
   },
   "philosophy": {
     "title": "哲学",
@@ -141,8 +142,7 @@
     "name": "お名前",
     "email": "メールアドレス",
     "message": "ランニングの目標を教えてください",
-    "send": "送信",
-    "note": "バックエンドは後日接続 — フォームはUIプレビューのみ。"
+    "send": "送信"
   },
   "footer": {
     "rights": "All rights reserved.",
