@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Lena Bogdanova | Olympischer Marathon-Coach",
+    "description": "Personalisiertes Laufcoaching vom ersten 5K bis zum Ultramarathon. Olympische Erfahrung, wissenschaftsbasiertes Training."
+  },
+  "nav": {
+    "story": "Geschichte",
+    "numbers": "Zahlen",
+    "coaching": "Coaching",
+    "journey": "Reise",
+    "philosophy": "Philosophie",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "startJourney": "Reise starten"
+  },
+  "hero": {
+    "greeting": "Hallo, ich bin Lena.",
+    "name": "Lena Bogdanova",
+    "tagline": "Olympionikin • Marathon-Coach • World Marathon Majors Finisher",
+    "subtitle": "Personalisiertes Coaching vom ersten 5K bis zum Ultramarathon.",
+    "cta": "Starte deine Laufreise",
+    "scroll": "Scrollen zum Entdecken"
+  },
+  "intro": {
+    "text": "Wenn du gesünder, stärker, widerstandsfähiger und schneller werden möchtest — oder einfach die Freude am Laufen entdecken willst — helfe ich dir gerne.",
+    "bio": "Ich bin ehemalige Nationalmannschafts-Olympiateilnehmerin, Laufcoach und lebenslange Läuferin mit fast 40 Jahren Erfahrung. Master in Leichtathletik-Coaching und internationale Trainerzertifizierung.",
+    "achievements": "90 Marathons und 300+ Halbmarathons, Rennen in den USA und Europa. Mission: Marathon oder Halbmarathon in allen 50 US-Bundesstaaten (20 abgeschlossen) und alle World Marathon Majors (5 abgeschlossen).",
+    "personalized": "Jeder Trainingsplan ist personalisiert — jeder Läufer hat ein anderes Ziel, ein anderes Leben, eine andere Reise.",
+    "motto": "Lauf für Gesundheit. Lauf für Stärke. Lauf fürs Leben!",
+    "mottoSub": "Jeder Läufer hat ein Ziel. Gemeinsam erreichen wir es."
+  },
+  "numbers": {
+    "title": "In Zahlen",
+    "subtitle": "Vier Jahrzehnte Hingabe, Disziplin und Kilometer",
+    "stats": {
+      "years": "Fast 40 Jahre Laufen",
+      "olympic": "Ehemalige Olympiateilnehmerin (1990–1998)",
+      "masters1": "Master in Leichtathletik-Coaching & Sport",
+      "masters2": "Master in Management",
+      "engineer": "Software-Ingenieurin & Laufcoach",
+      "marathons": "90 Marathons",
+      "halfs": "300+ Halbmarathons",
+      "world": "Rennen in den USA und Europa",
+      "states": "20 von 50 US-Bundesstaaten",
+      "majors": "World Marathon Majors Finisher",
+      "marathonPB": "Marathon-PB – 2:39",
+      "halfPB": "Halbmarathon-PB – 1:12"
+    }
+  },
+  "story": {
+    "title": "Meine Geschichte",
+    "subtitle": "Von Kindheitsrunden zu olympischen Bahnen — und darüber hinaus",
+    "paragraphs": {
+      "childhood": "Als Mädchen begann ich zu laufen, bevor ich wusste, was ein Marathon ist. Der Rhythmus der Schritte wurde meine Sprache.",
+      "national": "Diese Leidenschaft führte mich ins Olympiateam, wo ich von 1990 bis 1998 mein Land vertrat.",
+      "usa": "Das Leben brachte mich in die USA — ein neues Land, neue Möglichkeiten. Das Laufen blieb unverändert.",
+      "career": "Ich baute eine neue Karriere auf, machte einen Master in Management und wurde Software-Ingenieurin.",
+      "it": "Technologie und Sport scheinen Welten auseinander — doch beide verlangen Präzision und kontinuierliche Verbesserung.",
+      "coach": "Heute verbinde ich jahrzehntelange Elite-Erfahrung mit dem Verständnis für modernes Leben.",
+      "mission": "Mission: Marathon oder Halbmarathon in allen 50 US-Bundesstaaten. Bereits 20 abgeschlossen — jedes Jahr kommen neue dazu. Auch durch ganz Europa."
+    }
+  },
+  "why": {
+    "title": "Warum mit mir",
+    "subtitle": "Nicht nur Zeugnisse — echte Vorteile für dein Laufleben",
+    "benefits": {
+      "olympic": "Olympische Trainingserfahrung",
+      "personalized": "Personalisierte Trainingspläne",
+      "science": "Wissenschaftsbasiertes Coaching",
+      "life": "Training rund um Arbeit und Familie",
+      "adjustments": "Wöchentliche Anpassungen",
+      "communication": "Laufende Kommunikation",
+      "strategy": "Renntaktik",
+      "support": "Unterstützung vor und nach jedem Rennen"
+    }
+  },
+  "coaching": {
+    "title": "Coaching",
+    "subtitle": "Programme für jede Phase deiner Laufreise",
+    "programs": {
+      "beginner": "Anfänger",
+      "5k10k": "5K / 10K",
+      "half": "Halbmarathon",
+      "marathon": "Marathon",
+      "boston": "Boston Qualifier",
+      "ultra": "Ultramarathon",
+      "online": "Online-Coaching",
+      "oneOnOne": "Einzel-Sessions"
+    }
+  },
+  "journey": {
+    "title": "Meine Laufreise",
+    "subtitle": "Laufen hat mich um die Welt geführt",
+    "intro": "Nicht nur Zahlen — eine lebendige Karte aus Rennen und Straßen.",
+    "states": "20 US-Bundesstaaten abgeschlossen",
+    "statesGoal": "Ziel: alle 50 Staaten",
+    "europe": "Rennen in Dutzenden europäischer Städte",
+    "cities": {
+      "boston": "Boston",
+      "london": "London",
+      "berlin": "Berlin",
+      "chicago": "Chicago",
+      "newYork": "New York"
+    },
+    "majorsLabel": "World Marathon Majors",
+    "mapHint": "Interaktive Karte — aktualisiert mit jedem neuen Rennen"
+  },
+  "philosophy": {
+    "title": "Philosophie",
+    "subtitle": "Das Herz meines Coachings",
+    "quote1": "Ich glaube nicht an Einheits-Trainingspläne.",
+    "quote2": "Jeder Athlet hat andere Ziele, Stärken, Zeitpläne und Leben.",
+    "quote3": "Meine Aufgabe ist es, einen Plan zu erstellen, der für dich funktioniert — nicht umgekehrt."
+  },
+  "testimonials": {
+    "title": "Referenzen",
+    "subtitle": "Geschichten meiner Läufer",
+    "placeholder": "Kundenstimmen folgen bald."
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Häufige Fragen zum Coaching",
+    "items": {
+      "q1": "Für wen ist dieses Coaching?",
+      "a1": "Für alle — vom ersten 5K bis zum Ultramarathon.",
+      "q2": "Wie funktioniert Online-Coaching?",
+      "a2": "Persönlicher Plan, wöchentliche Check-ins und laufende Anpassungen.",
+      "q3": "Wie oft werden Pläne aktualisiert?",
+      "a3": "Wöchentlich — basierend auf Befinden, Alltag und Renntzielen.",
+      "q4": "Gibt es Renntaktik?",
+      "a4": "Ja — Tempo, Ernährung und mentale Vorbereitung sind Kernbestandteile.",
+      "q5": "Was macht deinen Ansatz anders?",
+      "a5": "Olympische Erfahrung plus Flexibilität für das echte Leben."
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Bereit für deine Laufreise?",
+    "description": "Schreib mir, um Ziele zu besprechen oder eine Beratung zu vereinbaren.",
+    "name": "Dein Name",
+    "email": "E-Mail",
+    "message": "Erzähl mir von deinen Laufzielen",
+    "send": "Nachricht senden",
+    "note": "Backend folgt — Formular ist derzeit nur UI."
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "tagline": "Lauf für Gesundheit. Lauf für Stärke. Lauf fürs Leben!"
+  }
+}

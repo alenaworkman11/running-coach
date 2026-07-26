@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Lena Bogdanova | Olympic Marathon Coach",
+    "description": "Personalized running coaching from your first 5K to ultramarathons. Olympic-level experience, science-based training."
+  },
+  "nav": {
+    "story": "Story",
+    "numbers": "Numbers",
+    "coaching": "Coaching",
+    "journey": "Journey",
+    "philosophy": "Philosophy",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "startJourney": "Start Your Journey"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Lena.",
+    "name": "Lena Bogdanova",
+    "tagline": "Olympian • Marathon Coach • World Marathon Majors Finisher",
+    "subtitle": "Personalized coaching from your first 5K to ultramarathons.",
+    "cta": "Start Your Running Journey",
+    "scroll": "Scroll to explore"
+  },
+  "intro": {
+    "text": "If you want to become healthier, stronger, more resilient, faster—or simply discover the joy of running—I'd love to help you get there.",
+    "bio": "I'm a former National Olympic Team athlete, running coach, and lifelong runner with nearly 40 years of experience. I hold a Master's Degree in Athletics Coaching & Physical Education and an international coaching certification.",
+    "achievements": "I've completed 90 marathons and 300+ half marathons, raced across the United States and Europe, and I'm currently on a mission to run a marathon or half marathon in all 50 U.S. states (20 completed) and finish all World Marathon Majors (5 completed).",
+    "personalized": "Every training plan I create is personalized—because every runner has a different goal, a different life, and a different journey.",
+    "motto": "Run for Health. Run for Strength. Run for Life!",
+    "mottoSub": "Every runner has a goal. Together, we'll make it happen."
+  },
+  "numbers": {
+    "title": "By the Numbers",
+    "subtitle": "Four decades of dedication, discipline, and miles",
+    "stats": {
+      "years": "Nearly 40 years of running",
+      "olympic": "Former National Olympic Team athlete (1990–1998)",
+      "masters1": "Master's Degree in Athletics Coaching & Physical Education",
+      "masters2": "Master's Degree in Management",
+      "engineer": "Software Engineer & Running Coach",
+      "marathons": "90 Marathons",
+      "halfs": "300+ Half Marathons",
+      "world": "Raced across the United States and Europe",
+      "states": "20 of 50 U.S. states completed",
+      "majors": "World Marathon Majors finisher",
+      "marathonPB": "Marathon PB – 2:39",
+      "halfPB": "Half Marathon PB – 1:12"
+    }
+  },
+  "story": {
+    "title": "My Story",
+    "subtitle": "From childhood laps to Olympic lanes—and beyond",
+    "paragraphs": {
+      "childhood": "As a girl, I started running before I even understood what a marathon was. The rhythm of footsteps became my language—a way to explore, to compete, to dream.",
+      "national": "That passion led me to the National Olympic Team, where I represented my country from 1990 to 1998. Olympic-level training taught me discipline, resilience, and what it truly means to push beyond limits.",
+      "usa": "Life brought me to the United States—a new country, new opportunities, and a new chapter. Running came with me, unchanged and unwavering.",
+      "career": "I built a new career, earned a Master's in Management, and became a software engineer. But the track never left my heart.",
+      "it": "Technology and athletics may seem worlds apart, yet both demand precision, patience, and continuous improvement—the same qualities that make a great coach.",
+      "coach": "Today, I combine decades of elite athletic experience with a deep understanding of modern life. I help runners of every level discover their strength—and their joy.",
+      "mission": "I'm currently on a mission to run a marathon or half marathon in all 50 U.S. states. I've already completed races in 20 states and continue adding new ones every year. Running has also taken me across much of Europe, where I've raced in marathons and half marathons in many different countries."
+    }
+  },
+  "why": {
+    "title": "Why Work With Me",
+    "subtitle": "Not just credentials—real advantages for your running life",
+    "benefits": {
+      "olympic": "Olympic-level training experience",
+      "personalized": "Personalized training plans",
+      "science": "Science-based coaching",
+      "life": "Training designed around work and family",
+      "adjustments": "Weekly plan adjustments",
+      "communication": "Ongoing communication",
+      "strategy": "Race strategy",
+      "support": "Support before and after every race"
+    }
+  },
+  "coaching": {
+    "title": "Coaching",
+    "subtitle": "Programs tailored to every stage of your running journey",
+    "programs": {
+      "beginner": "Beginner Runner",
+      "5k10k": "5K / 10K",
+      "half": "Half Marathon",
+      "marathon": "Marathon",
+      "boston": "Boston Qualifier",
+      "ultra": "Ultramarathon",
+      "online": "Online Coaching",
+      "oneOnOne": "One-on-One Sessions"
+    }
+  },
+  "journey": {
+    "title": "My Running Journey",
+    "subtitle": "Running has taken me around the world",
+    "intro": "Not just numbers—a living map of races, roads, and relentless curiosity.",
+    "states": "20 U.S. states completed",
+    "statesGoal": "Goal: all 50 states",
+    "europe": "Raced in dozens of cities across Europe",
+    "cities": {
+      "boston": "Boston",
+      "london": "London",
+      "berlin": "Berlin",
+      "chicago": "Chicago",
+      "newYork": "New York"
+    },
+    "majorsLabel": "World Marathon Majors",
+    "mapHint": "Interactive map — updated with every new race"
+  },
+  "philosophy": {
+    "title": "Philosophy",
+    "subtitle": "The heart of how I coach",
+    "quote1": "I don't believe in one-size-fits-all training plans.",
+    "quote2": "Every athlete has different goals, different strengths, different schedules, and different lives.",
+    "quote3": "My job is to build a training plan that works for you—not the other way around."
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "Stories from runners I've coached",
+    "placeholder": "Client testimonials coming soon. Be among the first to share your story."
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Common questions about coaching with Lena",
+    "items": {
+      "q1": "Who is this coaching for?",
+      "a1": "Everyone—from first-time 5K runners to experienced marathoners and ultramarathon aspirants. If you have a goal and commitment, we can work together.",
+      "q2": "How does online coaching work?",
+      "a2": "You'll receive a personalized training plan, weekly check-ins, and ongoing adjustments based on your progress, schedule, and feedback.",
+      "q3": "How often do plans get updated?",
+      "a3": "Plans are reviewed and adjusted weekly to reflect how you're feeling, your life schedule, and upcoming race goals.",
+      "q4": "Do you offer race-day strategy?",
+      "a4": "Absolutely. Race strategy—including pacing, nutrition, and mental preparation—is a core part of my coaching.",
+      "q5": "What makes your approach different?",
+      "a5": "Olympic-level experience combined with real-world flexibility. I design training around your life—not the other way around."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Ready to start your running journey?",
+    "description": "Reach out to discuss your goals, ask questions, or schedule a consultation. Every great run begins with a single step.",
+    "name": "Your Name",
+    "email": "Email Address",
+    "message": "Tell me about your running goals",
+    "send": "Send Message",
+    "note": "Backend integration coming soon — form is UI preview only."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "tagline": "Run for Health. Run for Strength. Run for Life!"
+  }
+}

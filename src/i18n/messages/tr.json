@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Lena Bogdanova | Olimpiyat Maraton Koçu",
+    "description": "İlk 5K'dan ultramaratonlara kişiselleştirilmiş koşu koçluğu. Olimpiyat deneyimi, bilim temelli antrenman."
+  },
+  "nav": {
+    "story": "Hikaye",
+    "numbers": "Rakamlar",
+    "coaching": "Koçluk",
+    "journey": "Yolculuk",
+    "philosophy": "Felsefe",
+    "faq": "SSS",
+    "contact": "İletişim",
+    "startJourney": "Yolculuğa Başla"
+  },
+  "hero": {
+    "greeting": "Merhaba, ben Lena.",
+    "name": "Lena Bogdanova",
+    "tagline": "Olimpiyatçı • Maraton Koçu • World Marathon Majors Finisher",
+    "subtitle": "İlk 5K'dan ultramaratonlara kişiselleştirilmiş koçluk.",
+    "cta": "Koşu Yolculuğuna Başla",
+    "scroll": "Keşfetmek için kaydır"
+  },
+  "intro": {
+    "text": "Daha sağlıklı, güçlü, dayanıklı ve hızlı olmak — veya koşunun keyfini keşfetmek istiyorsanız — size yardımcı olmak isterim.",
+    "bio": "Eski Milli Olimpiyat Takımı sporcusu, koşu koçu ve yaklaşık 40 yıllık deneyime sahip bir koşucuyum. Atletizm Koçluğu yüksek lisansı ve uluslararası koç sertifikası.",
+    "achievements": "90 maraton ve 300+ yarı maraton, ABD ve Avrupa'da yarışlar. 50 ABD eyaletinin tamamında maraton/yarı maraton hedefi (20 tamamlandı) ve tüm World Marathon Majors (5 tamamlandı).",
+    "personalized": "Her antrenman planı kişiselleştirilmiş — her koşucunun farklı bir hedefi, hayatı ve yolculuğu var.",
+    "motto": "Sağlık için koş. Güç için koş. Hayat için koş!",
+    "mottoSub": "Her koşucunun bir hedefi var. Birlikte başaracağız."
+  },
+  "numbers": {
+    "title": "Rakamlarla",
+    "subtitle": "Kırk yıllık adanmışlık, disiplin ve kilometreler",
+    "stats": {
+      "years": "Yaklaşık 40 yıllık koşu",
+      "olympic": "Eski Milli Olimpiyat Takımı sporcusu (1990–1998)",
+      "masters1": "Atletizm Koçluğu Yüksek Lisansı",
+      "masters2": "Yönetim Yüksek Lisansı",
+      "engineer": "Yazılım Mühendisi & Koşu Koçu",
+      "marathons": "90 Maraton",
+      "halfs": "300+ Yarı Maraton",
+      "world": "ABD ve Avrupa'da yarışlar",
+      "states": "50 eyaletten 20'si tamamlandı",
+      "majors": "World Marathon Majors finisher",
+      "marathonPB": "Maraton PB – 2:39",
+      "halfPB": "Yarı Maraton PB – 1:12"
+    }
+  },
+  "story": {
+    "title": "Hikayem",
+    "subtitle": "Çocukluk turlarından olimpik pistlere — ve ötesine",
+    "paragraphs": {
+      "childhood": "Küçükken maratonun ne olduğunu bilmeden koşmaya başladım. Adım ritmi benim dilim oldu.",
+      "national": "Bu tutku beni 1990-1998 arası ülkemi temsil ettiğim Olimpiyat Takımı'na götürdü.",
+      "usa": "Hayat beni ABD'ye getirdi — yeni ülke, yeni fırsatlar. Koşu yanımda kaldı.",
+      "career": "Yeni bir kariyer kurdum, yönetim yüksek lisansı aldım ve yazılım mühendisi oldum.",
+      "it": "Teknoloji ve spor farklı dünyalar gibi görünse de ikisi de hassasiyet ve sürekli gelişim gerektirir.",
+      "coach": "Bugün onlarca yıllık elit deneyimi modern yaşam anlayışıyla birleştiriyorum.",
+      "mission": "50 ABD eyaletinin tamamında maraton veya yarı maraton koşma misyonundayım. 20 eyalet tamamlandı — her yıl yenileri ekleniyor. Avrupa'nın dört bir yanında da yarıştım."
+    }
+  },
+  "why": {
+    "title": "Neden Benimle",
+    "subtitle": "Sadece diplomalar değil — koşu hayatınız için gerçek avantajlar",
+    "benefits": {
+      "olympic": "Olimpiyat seviyesi antrenman deneyimi",
+      "personalized": "Kişiselleştirilmiş planlar",
+      "science": "Bilim temelli koçluk",
+      "life": "İş ve aileye uygun antrenman",
+      "adjustments": "Haftalık plan güncellemeleri",
+      "communication": "Sürekli iletişim",
+      "strategy": "Yarış stratejisi",
+      "support": "Her yarış öncesi ve sonrası destek"
+    }
+  },
+  "coaching": {
+    "title": "Koçluk",
+    "subtitle": "Koşu yolculuğunuzun her aşamasına uygun programlar",
+    "programs": {
+      "beginner": "Yeni Başlayan",
+      "5k10k": "5K / 10K",
+      "half": "Yarı Maraton",
+      "marathon": "Maraton",
+      "boston": "Boston Qualifier",
+      "ultra": "Ultramaraton",
+      "online": "Online Koçluk",
+      "oneOnOne": "Birebir Seanslar"
+    }
+  },
+  "journey": {
+    "title": "Koşu Yolculuğum",
+    "subtitle": "Koşu beni dünyanın dört bir yanina götürdü",
+    "intro": "Sadece rakamlar değil — yarışların ve yolların canlı haritası.",
+    "states": "20 ABD eyaleti tamamlandı",
+    "statesGoal": "Hedef: 50 eyalet",
+    "europe": "Avrupa'nın onlarca şehrinde yarışlar",
+    "cities": {
+      "boston": "Boston",
+      "london": "Londra",
+      "berlin": "Berlin",
+      "chicago": "Chicago",
+      "newYork": "New York"
+    },
+    "majorsLabel": "World Marathon Majors",
+    "mapHint": "İnteraktif harita — her yeni yarışla güncellenir"
+  },
+  "philosophy": {
+    "title": "Felsefe",
+    "subtitle": "Koçluğumun kalbi",
+    "quote1": "Herkese uyan antrenman planlarına inanmıyorum.",
+    "quote2": "Her sporcunun farklı hedefleri, güçlü yönleri, programları ve hayatları var.",
+    "quote3": "Benim işim sizin için çalışan bir plan oluşturmak — tersi değil."
+  },
+  "testimonials": {
+    "title": "Referanslar",
+    "subtitle": "Koçluğunu yaptığım koşucuların hikayeleri",
+    "placeholder": "Müşteri yorumları yakında."
+  },
+  "faq": {
+    "title": "SSS",
+    "subtitle": "Koçluk hakkında sık sorulan sorular",
+    "items": {
+      "q1": "Bu koçluk kimler için?",
+      "a1": "Herkes için — ilk 5K'dan ultramaratonlara. Hedefiniz ve kararlılığınız varsa birlikte çalışabiliriz.",
+      "q2": "Online koçluk nasıl çalışır?",
+      "a2": "Kişisel plan, haftalık check-in ve ilerlemeye dayalı güncellemeler.",
+      "q3": "Planlar ne sıklıkla güncellenir?",
+      "a3": "Haftalık — nasıl hissettiğinize, programınıza ve yarış hedeflerinize göre.",
+      "q4": "Yarış günü stratejisi var mı?",
+      "a4": "Kesinlikle — tempo, beslenme ve zihinsel hazırlık koçluğun temelidir.",
+      "q5": "Yaklaşımınızın farkı ne?",
+      "a5": "Olimpiyat deneyimi artı gerçek hayata uyum esnekliği."
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Koşu yolculuğunuza başlamaya hazır mısınız?",
+    "description": "Hedeflerinizi tartışmak, soru sormak veya danışmanlık planlamak için yazın.",
+    "name": "Adınız",
+    "email": "E-posta",
+    "message": "Koşu hedeflerinizi anlatın",
+    "send": "Mesaj Gönder",
+    "note": "Backend yakında — form şimdilik sadece UI."
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "tagline": "Sağlık için koş. Güç için koş. Hayat için koş!"
+  }
+}

@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  --color-gold: #c9a227;
+  --color-gold-light: #e8c547;
+  --color-teal: #0d9488;
+  --color-teal-light: #14b8a6;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+}
+
+:root {
+  --background: #faf9f7;
+  --foreground: #1a1a1a;
+  --muted: #f0eeea;
+  --muted-foreground: #6b6560;
+  --accent: #0d9488;
+  --accent-foreground: #ffffff;
+  --card: #ffffff;
+  --card-foreground: #1a1a1a;
+  --border: #e5e2dc;
+  --overlay-from: rgba(250, 249, 247, 0.15);
+  --overlay-via: rgba(13, 148, 136, 0.25);
+  --overlay-to: rgba(201, 162, 39, 0.2);
+  --hero-gradient: linear-gradient(135deg, rgba(250, 249, 247, 0.92) 0%, rgba(250, 249, 247, 0.6) 50%, rgba(13, 148, 136, 0.15) 100%);
+  --photo-overlay: linear-gradient(180deg, rgba(250, 249, 247, 0.1) 0%, rgba(13, 148, 136, 0.35) 45%, rgba(201, 162, 39, 0.25) 100%);
+  --glow: rgba(13, 148, 136, 0.3);
+}
+
+.dark {
+  --background: #0a0a0b;
+  --foreground: #f5f3ef;
+  --muted: #161618;
+  --muted-foreground: #a09a93;
+  --accent: #14b8a6;
+  --accent-foreground: #0a0a0b;
+  --card: #121214;
+  --card-foreground: #f5f3ef;
+  --border: #2a2a2e;
+  --overlay-from: rgba(10, 10, 11, 0.2);
+  --overlay-via: rgba(20, 184, 166, 0.3);
+  --overlay-to: rgba(201, 162, 39, 0.15);
+  --hero-gradient: linear-gradient(135deg, rgba(10, 10, 11, 0.95) 0%, rgba(10, 10, 11, 0.7) 50%, rgba(20, 184, 166, 0.12) 100%);
+  --photo-overlay: linear-gradient(180deg, rgba(10, 10, 11, 0.15) 0%, rgba(20, 184, 166, 0.4) 50%, rgba(201, 162, 39, 0.2) 100%);
+  --glow: rgba(20, 184, 166, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 35%, transparent);
+  color: var(--foreground);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--color-gold) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.photo-overlay {
+  background: var(--photo-overlay);
+}
+
+.hero-overlay {
+  background: var(--hero-gradient);
+}
+
+.glow-ring {
+  box-shadow: 0 0 60px var(--glow), 0 0 120px color-mix(in srgb, var(--glow) 50%, transparent);
+}
+
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+}
+
+.noise-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 4s ease-in-out infinite;
+}
