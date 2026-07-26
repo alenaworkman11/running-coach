@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Lena Bogdanova | Olympischer Marathon-Coach",
+    "title": "Lena | Olympischer Marathon-Coach",
     "description": "Personalisiertes Laufcoaching vom ersten 5K bis zum Ultramarathon. Olympische Erfahrung, wissenschaftsbasiertes Training."
   },
   "nav": {
@@ -15,7 +15,8 @@
   },
   "hero": {
     "greeting": "Hallo, ich bin Lena.",
-    "name": "Lena Bogdanova",
+    "line1": "Hi",
+    "line2": "Ich bin Lena",
     "tagline": "Olympionikin • Marathon-Coach • World Marathon Majors Finisher",
     "subtitle": "Personalisiertes Coaching vom ersten 5K bis zum Ultramarathon.",
     "cta": "Starte deine Laufreise",

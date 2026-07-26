@@ -18,7 +18,7 @@ export function Philosophy() {
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <div className="lg:sticky lg:top-32">
-            <ParallaxImage src="/img/philosophy.svg" alt="Philosophy" aspect="portrait" speed={0.08} />
+            <ParallaxImage src="/img/philosophy.jpg" alt="Philosophy" aspect="portrait" speed={0.08} />
           </div>
 
           <div className="space-y-8">

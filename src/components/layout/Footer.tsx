@@ -16,7 +16,7 @@ export function Footer() {
           <p className="mt-2 text-sm text-muted-foreground">{t("tagline")}</p>
         </div>
         <p className="text-sm text-muted-foreground">
-          © {year} Lena Bogdanova. {t("rights")}
+          © {year} Lena. {t("rights")}
         </p>
       </div>
     </footer>

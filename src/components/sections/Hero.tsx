@@ -29,26 +29,14 @@ export function Hero() {
         className="relative mx-auto grid w-full max-w-7xl items-center gap-12 px-4 py-32 md:px-8 lg:grid-cols-2"
       >
         <div className="space-y-6">
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-sm font-medium uppercase tracking-[0.25em] text-accent"
-          >
-            {t("greeting")}
-          </motion.p>
-
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
             className="font-display text-5xl font-bold leading-[1.05] tracking-tight md:text-7xl lg:text-8xl"
           >
-            {t("name").split(" ").map((word, i) => (
-              <span key={word} className={i === 1 ? "text-gradient block" : "block"}>
-                {word}
-              </span>
-            ))}
+            <span className="block">{t("line1")}</span>
+            <span className="text-gradient block">{t("line2")}</span>
           </motion.h1>
 
           <motion.p
@@ -93,8 +81,8 @@ export function Hero() {
         >
           <div className="relative aspect-[3/4] overflow-hidden rounded-[2rem] glow-ring">
             <Image
-              src="/img/hero.svg"
-              alt="Lena Bogdanova"
+              src="/img/hero.jpg"
+              alt="Lena"
               fill
               priority
               className="object-cover"

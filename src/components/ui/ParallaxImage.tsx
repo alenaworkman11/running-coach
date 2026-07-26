@@ -12,6 +12,8 @@ interface ParallaxImageProps {
   speed?: number;
   priority?: boolean;
   aspect?: "square" | "portrait" | "landscape" | "wide";
+  objectFit?: "cover" | "contain";
+  objectPosition?: string;
 }
 
 const aspectMap = {
@@ -29,20 +31,34 @@ export function ParallaxImage({
   speed = 0.3,
   priority = false,
   aspect = "landscape",
+  objectFit = "cover",
+  objectPosition = "center",
 }: ParallaxImageProps) {
   const { scrollYProgress } = useScroll();
   const y = useTransform(scrollYProgress, [0, 1], ["0%", `${speed * 100}%`]);
   const scale = useTransform(scrollYProgress, [0, 0.5, 1], [1.05, 1, 1.05]);
+  const focusTop = objectPosition !== "center";
 
   return (
     <motion.div className={cn("group relative overflow-hidden rounded-3xl", aspectMap[aspect], className)}>
-      <motion.div style={{ y, scale }} className="absolute inset-0 h-[120%] w-full">
+      <motion.div
+        style={{ y, scale }}
+        className={cn(
+          "absolute inset-x-0 w-full",
+          focusTop ? "top-0 h-full" : "inset-0 h-[120%]"
+        )}
+      >
         <Image
           src={src}
           alt={alt}
           fill
           priority={priority}
-          className={cn("object-cover transition-transform duration-700 group-hover:scale-105", imageClassName)}
+          style={{ objectPosition }}
+          className={cn(
+            objectFit === "contain" ? "object-contain" : "object-cover",
+            "transition-transform duration-700 group-hover:scale-105",
+            imageClassName
+          )}
           sizes="(max-width: 768px) 100vw, 50vw"
         />
       </motion.div>

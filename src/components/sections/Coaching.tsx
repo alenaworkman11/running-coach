@@ -26,7 +26,13 @@ export function Coaching() {
           <div className="lg:sticky lg:top-32">
             <SectionHeading title={t("title")} subtitle={t("subtitle")} />
             <div className="mt-10 hidden lg:block">
-              <ParallaxImage src="/img/coaching.svg" alt="Coaching" aspect="portrait" speed={0.12} />
+              <ParallaxImage
+                src="/img/coaching.png"
+                alt="Coaching"
+                aspect="portrait"
+                objectPosition="center 95%"
+                speed={0.12}
+              />
             </div>
           </div>
 

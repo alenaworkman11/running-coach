@@ -29,7 +29,7 @@ export function Intro() {
             </div>
           </motion.div>
 
-          <ParallaxImage src="/img/intro.svg" alt="Running" aspect="portrait" speed={0.15} />
+          <ParallaxImage src="/img/intro.jpg" alt="Running" aspect="portrait" speed={0.15} />
         </div>
       </div>
     </section>

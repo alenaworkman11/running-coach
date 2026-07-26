@@ -7,7 +7,26 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ParallaxImage } from "@/components/ui/ParallaxImage";
 
 const paragraphKeys = ["childhood", "national", "usa", "career", "it", "coach", "mission"] as const;
-const images = ["/img/story-1.svg", "/img/story-2.svg", "/img/story-3.svg"];
+const storyImages: {
+  src: string;
+  aspect: "landscape" | "portrait";
+  objectFit: "cover";
+  objectPosition?: string;
+}[] = [
+  { src: "/img/story-1.jpg", aspect: "landscape", objectFit: "cover" },
+  {
+    src: "/img/story-2.jpg",
+    aspect: "portrait",
+    objectFit: "cover",
+    objectPosition: "center 15%",
+  },
+  {
+    src: "/img/story-3.jpg",
+    aspect: "portrait",
+    objectFit: "cover",
+    objectPosition: "center 95%",
+  },
+];
 
 export function MyStory() {
   const t = useTranslations("story");
@@ -28,7 +47,7 @@ export function MyStory() {
           <div className="space-y-24 md:space-y-32">
             {paragraphKeys.map((key, i) => {
               const isEven = i % 2 === 0;
-              const hasImage = i < images.length;
+              const hasImage = i < storyImages.length;
 
               return (
                 <motion.div
@@ -37,22 +56,37 @@ export function MyStory() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-80px" }}
                   transition={{ duration: 0.8, delay: 0.1 }}
-                  className={`relative grid items-center gap-8 md:grid-cols-2 md:gap-16 ${!isEven ? "md:[direction:rtl]" : ""}`}
+                  className="relative grid items-center gap-8 md:grid-cols-2 md:gap-x-16"
                 >
-                  <div className={`${!isEven ? "md:[direction:ltr]" : ""} ${hasImage ? "" : "md:col-span-2 md:max-w-3xl md:mx-auto md:text-center"}`}>
+                  <div
+                    className={
+                      isEven
+                        ? "md:col-start-1 md:pr-12 lg:pr-16"
+                        : "md:col-start-2 md:pl-12 lg:pl-16"
+                    }
+                  >
                     <span className="mb-3 inline-block rounded-full bg-accent/10 px-3 py-1 text-xs font-semibold text-accent">
                       {String(i + 1).padStart(2, "0")}
                     </span>
                     <p className="text-lg leading-relaxed md:text-xl">{t(`paragraphs.${key}`)}</p>
                   </div>
 
-                  {hasImage && (
-                    <div className={!isEven ? "md:[direction:ltr]" : ""}>
-                      <ParallaxImage src={images[i]} alt={t(`paragraphs.${key}`)} aspect="landscape" speed={0.1 + i * 0.05} />
+                  {hasImage ? (
+                    <div className={isEven ? "md:col-start-2" : "md:col-start-1 md:row-start-1"}>
+                      <ParallaxImage
+                        src={storyImages[i].src}
+                        alt={t(`paragraphs.${key}`)}
+                        aspect={storyImages[i].aspect}
+                        objectFit={storyImages[i].objectFit}
+                        objectPosition={storyImages[i].objectPosition}
+                        speed={0.1 + i * 0.05}
+                      />
                     </div>
+                  ) : (
+                    <div className="hidden md:block" aria-hidden />
                   )}
 
-                  <div className="absolute left-4 hidden h-4 w-4 -translate-x-1/2 rounded-full border-2 border-accent bg-background md:left-1/2 md:block" />
+                  <div className="absolute left-4 top-8 z-10 hidden h-4 w-4 -translate-x-1/2 rounded-full border-2 border-accent bg-background md:left-1/2 md:top-1/2 md:-translate-y-1/2" />
                 </motion.div>
               );
             })}

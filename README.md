@@ -1,4 +1,4 @@
-# Lena Bogdanova — Running Coach Website
+# Lena — Running Coach Website
 
 Premium Next.js landing page with 3D hero, parallax photography, i18n, and light/dark themes.
 

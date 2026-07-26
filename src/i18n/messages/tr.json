@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Lena Bogdanova | Olimpiyat Maraton Koçu",
+    "title": "Lena | Olimpiyat Maraton Koçu",
     "description": "İlk 5K'dan ultramaratonlara kişiselleştirilmiş koşu koçluğu. Olimpiyat deneyimi, bilim temelli antrenman."
   },
   "nav": {
@@ -15,7 +15,8 @@
   },
   "hero": {
     "greeting": "Merhaba, ben Lena.",
-    "name": "Lena Bogdanova",
+    "line1": "Hi",
+    "line2": "Ben Lena'yım",
     "tagline": "Olimpiyatçı • Maraton Koçu • World Marathon Majors Finisher",
     "subtitle": "İlk 5K'dan ultramaratonlara kişiselleştirilmiş koçluk.",
     "cta": "Koşu Yolculuğuna Başla",
