@@ -54,7 +54,7 @@ export function Header() {
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 md:px-8">
           <Link href="/" className="font-display text-xl font-bold tracking-tight md:text-2xl">
-            Lena<span className="text-accent">.</span>
+            ALENA
           </Link>
 
           <nav className="hidden items-center gap-1 lg:flex">
@@ -104,7 +104,7 @@ export function Header() {
             className="fixed inset-0 z-[60] bg-background/95 backdrop-blur-xl lg:hidden"
           >
             <div className="flex items-center justify-between p-4">
-              <span className="font-display text-xl font-bold">Lena.</span>
+              <span className="font-display text-xl font-bold">ALENA</span>
               <button type="button" onClick={() => setMobileOpen(false)} aria-label="Close menu">
                 <X className="h-6 w-6" />
               </button>

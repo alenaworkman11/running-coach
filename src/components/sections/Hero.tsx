@@ -33,7 +33,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="font-display text-5xl font-bold leading-[1.05] tracking-tight md:text-7xl lg:text-8xl"
+            className="font-display text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl"
           >
             <span className="block">{t("line1")}</span>
             <span className="text-gradient block">{t("line2")}</span>
@@ -43,7 +43,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-lg text-muted-foreground md:text-xl"
+            className="max-w-xl text-sm leading-relaxed text-muted-foreground md:text-base"
           >
             {t("tagline")}
           </motion.p>
@@ -55,6 +55,15 @@ export function Hero() {
             className="max-w-lg text-base text-foreground/75 md:text-lg"
           >
             {t("subtitle")}
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.8 }}
+            className="max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg"
+          >
+            {t("subtitleExtra")}
           </motion.p>
 
           <motion.div
@@ -82,7 +91,7 @@ export function Hero() {
           <div className="relative aspect-[3/4] overflow-hidden rounded-[2rem] glow-ring">
             <Image
               src="/img/hero.jpg"
-              alt="Lena"
+              alt="Alena"
               fill
               priority
               className="object-cover"
@@ -91,9 +100,9 @@ export function Hero() {
             <div className="photo-overlay absolute inset-0" />
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
           </div>
-          <div className="absolute -bottom-6 -left-6 rounded-2xl border border-border bg-card/90 p-4 backdrop-blur-xl md:-left-10">
-            <p className="text-3xl font-bold text-accent">2:39</p>
-            <p className="text-xs uppercase tracking-wider text-muted-foreground">Marathon PB</p>
+          <div className="absolute -bottom-5 -left-5 rounded-xl border border-border bg-card/90 px-3 py-2.5 backdrop-blur-xl md:-left-8">
+            <p className="text-xl font-bold text-accent md:text-2xl">2:39</p>
+            <p className="text-[10px] uppercase tracking-wider text-muted-foreground">Marathon PB</p>
           </div>
         </motion.div>
       </motion.div>

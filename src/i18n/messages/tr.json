@@ -14,11 +14,12 @@
     "startJourney": "Yolculuğa Başla"
   },
   "hero": {
-    "greeting": "Merhaba, ben Lena.",
-    "line1": "Hi",
-    "line2": "Ben Lena'yım",
-    "tagline": "Olimpiyatçı • Maraton Koçu • World Marathon Majors Finisher",
+    "greeting": "Merhaba, ben Alena.",
+    "line1": "Merhaba,",
+    "line2": "ben Alena",
+    "tagline": "Olimpiyatçı • Koşu Antrenörü • Dünya Şampiyonası Yarışmacısı • World Marathon Majors Finisher",
     "subtitle": "İlk 5K'dan ultramaratonlara kişiselleştirilmiş koçluk.",
+    "subtitleExtra": "Daha sağlıklı, güçlü veya hızlı olmak ya da sadece koşudan daha fazla keyif almak istiyorsanız — hayatınıza uygun, hedefinize ulaşmanıza yardımcı olacak kişisel bir antrenman planı oluşturacağım.",
     "cta": "Koşu Yolculuğuna Başla",
     "scroll": "Keşfetmek için kaydır"
   },

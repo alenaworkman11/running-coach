@@ -14,6 +14,7 @@ interface ParallaxImageProps {
   aspect?: "square" | "portrait" | "landscape" | "wide";
   objectFit?: "cover" | "contain";
   objectPosition?: string;
+  overlay?: boolean;
 }
 
 const aspectMap = {
@@ -33,6 +34,7 @@ export function ParallaxImage({
   aspect = "landscape",
   objectFit = "cover",
   objectPosition = "center",
+  overlay = true,
 }: ParallaxImageProps) {
   const { scrollYProgress } = useScroll();
   const y = useTransform(scrollYProgress, [0, 1], ["0%", `${speed * 100}%`]);
@@ -44,7 +46,7 @@ export function ParallaxImage({
       <motion.div
         style={{ y, scale }}
         className={cn(
-          "absolute inset-x-0 w-full",
+          "absolute inset-x-0 w-full overflow-hidden rounded-3xl",
           focusTop ? "top-0 h-full" : "inset-0 h-[120%]"
         )}
       >
@@ -56,14 +58,18 @@ export function ParallaxImage({
           style={{ objectPosition }}
           className={cn(
             objectFit === "contain" ? "object-contain" : "object-cover",
-            "transition-transform duration-700 group-hover:scale-105",
+            "rounded-3xl transition-transform duration-700 group-hover:scale-105",
             imageClassName
           )}
           sizes="(max-width: 768px) 100vw, 50vw"
         />
       </motion.div>
-      <div className="photo-overlay pointer-events-none absolute inset-0 transition-opacity duration-500 group-hover:opacity-90" />
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+      {overlay && (
+        <>
+          <div className="photo-overlay pointer-events-none absolute inset-0 transition-opacity duration-500 group-hover:opacity-90" />
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+        </>
+      )}
     </motion.div>
   );
 }

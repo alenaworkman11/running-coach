@@ -14,11 +14,12 @@
     "startJourney": "Start Your Journey"
   },
   "hero": {
-    "greeting": "Hi, I'm Lena.",
+    "greeting": "Hi I'm Alena.",
     "line1": "Hi",
-    "line2": "I am Lena",
-    "tagline": "Olympian • Marathon Coach • World Marathon Majors Finisher",
+    "line2": "I'm Alena",
+    "tagline": "Olympian • Running Coach • World Championships Competitor • World Marathon Majors Finisher",
     "subtitle": "Personalized coaching from your first 5K to ultramarathons.",
+    "subtitleExtra": "Whether you want to become healthier, stronger, faster, or simply enjoy running more, I'll create a personalized training plan that fits your life and helps you reach your goal.",
     "cta": "Start Your Running Journey",
     "scroll": "Scroll to explore"
   },

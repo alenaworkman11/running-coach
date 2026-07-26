@@ -22,10 +22,17 @@ export function Contact() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <div>
             <SectionHeading title={t("title")} subtitle={t("subtitle")} />
-            <p className="mt-6 text-muted-foreground leading-relaxed">{t("description")}</p>
-            <div className="mt-10 hidden lg:block">
-              <ParallaxImage src="/img/contact.svg" alt="Contact" aspect="landscape" speed={0.1} />
+            <div className="mt-8">
+              <ParallaxImage
+                src="/img/contact.png"
+                alt="Contact"
+                aspect="wide"
+                speed={0.05}
+                objectPosition="center 40%"
+                overlay={false}
+              />
             </div>
+            <p className="mt-6 text-muted-foreground leading-relaxed">{t("description")}</p>
           </div>
 
           <motion.form
