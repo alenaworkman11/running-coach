@@ -53,7 +53,7 @@ export function Header() {
         )}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 md:px-8">
-          <Link href="/" className="font-display text-xl font-bold tracking-tight md:text-2xl">
+          <Link href="/" className="font-display text-heading-brand font-bold tracking-tight">
             ALENA
           </Link>
 
@@ -104,7 +104,7 @@ export function Header() {
             className="fixed inset-0 z-[60] bg-background/95 backdrop-blur-xl lg:hidden"
           >
             <div className="flex items-center justify-between p-4">
-              <span className="font-display text-xl font-bold">ALENA</span>
+              <span className="font-display text-heading-brand font-bold">ALENA</span>
               <button type="button" onClick={() => setMobileOpen(false)} aria-label="Close menu">
                 <X className="h-6 w-6" />
               </button>
@@ -118,7 +118,7 @@ export function Header() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: i * 0.05 }}
                   onClick={() => setMobileOpen(false)}
-                  className="border-b border-border py-4 text-2xl font-display"
+                  className="border-b border-border py-4 font-display text-heading-tertiary"
                 >
                   {item.label}
                 </motion.a>

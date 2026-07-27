@@ -1,4 +1,4 @@
-import { DM_Sans, Playfair_Display } from "next/font/google";
+import { DM_Sans, Mochiy_Pop_One } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -15,7 +15,8 @@ const dmSans = DM_Sans({
   display: "swap",
 });
 
-const playfair = Playfair_Display({
+const mochiyPopOne = Mochiy_Pop_One({
+  weight: "400",
   subsets: ["latin"],
   variable: "--font-display",
   display: "swap",
@@ -53,7 +54,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className={`${dmSans.variable} ${playfair.variable} antialiased`}>
+      <body className={`${dmSans.variable} ${mochiyPopOne.variable} antialiased`}>
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
             <SmoothScroll>

@@ -62,7 +62,7 @@ export function ByTheNumbers() {
                 <div className="absolute -right-4 -top-4 h-24 w-24 rounded-full bg-accent/5 transition-transform duration-500 group-hover:scale-150" />
                 <Icon className="mb-4 h-6 w-6 text-accent" />
                 {numeric ? (
-                  <p className="font-display text-3xl font-bold">
+                  <p className="font-display text-heading-stat font-bold">
                     <AnimatedCounter value={numeric.value} suffix={numeric.suffix} />
                   </p>
                 ) : null}

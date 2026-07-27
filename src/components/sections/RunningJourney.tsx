@@ -61,7 +61,7 @@ export function RunningJourney() {
             >
               <item.icon className="mb-3 h-6 w-6 text-accent" />
               {item.counter !== null && (
-                <p className="font-display text-4xl font-bold">
+                <p className="font-display text-heading-stat-lg font-bold">
                   <AnimatedCounter value={item.counter} suffix={item.suffix ?? ""} />
                 </p>
               )}
@@ -72,7 +72,7 @@ export function RunningJourney() {
 
         <div className="mt-16 grid gap-8 lg:grid-cols-2">
           <div>
-            <h3 className="mb-6 font-display text-2xl font-bold">{t("majorsLabel")}</h3>
+            <h3 className="mb-6 font-display text-heading-tertiary font-bold">{t("majorsLabel")}</h3>
             <div className="flex flex-wrap gap-3">
               {marathonCityKeys.map((city, i) => (
                 <motion.button

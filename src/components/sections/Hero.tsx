@@ -33,7 +33,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="font-display text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl"
+            className="font-display text-heading-primary font-bold tracking-tight"
           >
             <span className="block">{t("line1")}</span>
             <span className="text-gradient block">{t("line2")}</span>

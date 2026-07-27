@@ -24,7 +24,7 @@ export function Philosophy() {
           <div className="space-y-8">
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
               <span className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">{t("title")}</span>
-              <h2 className="mt-4 font-display text-4xl font-bold md:text-5xl lg:text-6xl">{t("subtitle")}</h2>
+              <h2 className="mt-4 font-display text-heading-primary font-bold">{t("subtitle")}</h2>
             </motion.div>
 
             {quotes.map((quote, i) => (
@@ -35,7 +35,7 @@ export function Philosophy() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: i * 0.15 }}
-                className={`font-display text-2xl font-medium leading-relaxed md:text-3xl lg:text-4xl ${
+                className={`font-display text-heading-secondary font-medium ${
                   i === 2 ? "text-gradient" : ""
                 }`}
               >

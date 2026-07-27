@@ -22,7 +22,7 @@
   --color-gold-light: var(--aqua-light);
   --color-teal: var(--steel);
   --color-teal-light: var(--aqua);
-  --font-display: "Playfair Display", Georgia, serif;
+  --font-display: "Mochiy Pop One", system-ui, sans-serif;
   --font-body: "DM Sans", system-ui, sans-serif;
 }
 
@@ -152,6 +152,77 @@ body::before {
 
 .font-display {
   font-family: var(--font-display);
+}
+
+/* Heading scale — 30% smaller than default Tailwind xl–6xl */
+.text-heading-primary {
+  font-size: 1.575rem;
+  line-height: 1.05;
+}
+
+@media (min-width: 768px) {
+  .text-heading-primary {
+    font-size: 2.1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-heading-primary {
+    font-size: 2.625rem;
+  }
+}
+
+.text-heading-secondary {
+  font-size: 1.05rem;
+  line-height: 1.625;
+}
+
+@media (min-width: 768px) {
+  .text-heading-secondary {
+    font-size: 1.3125rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-heading-secondary {
+    font-size: 1.575rem;
+  }
+}
+
+.text-heading-tertiary {
+  font-size: 1.05rem;
+}
+
+.text-heading-motto {
+  font-size: 1.05rem;
+}
+
+@media (min-width: 768px) {
+  .text-heading-motto {
+    font-size: 1.3125rem;
+  }
+}
+
+.text-heading-stat {
+  font-size: 1.3125rem;
+}
+
+.text-heading-stat-lg {
+  font-size: 1.575rem;
+}
+
+.text-heading-brand {
+  font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .text-heading-brand {
+    font-size: 1.05rem;
+  }
+}
+
+.text-heading-card {
+  font-size: 0.875rem;
 }
 
 .text-gradient {

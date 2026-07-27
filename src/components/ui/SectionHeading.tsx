@@ -23,7 +23,7 @@ export function SectionHeading({ title, subtitle, align = "left", className }: S
         <span className="h-px w-12 bg-gradient-to-r from-steel/60 via-accent/50 to-sky/40" />
         <span className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">ALENA</span>
       </div>
-      <h2 className="font-display text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">{title}</h2>
+      <h2 className="font-display text-heading-primary font-bold tracking-tight">{title}</h2>
       {subtitle && <p className="mt-4 max-w-2xl text-lg text-muted-foreground md:text-xl">{subtitle}</p>}
     </motion.div>
   );

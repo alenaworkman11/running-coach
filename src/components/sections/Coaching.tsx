@@ -52,7 +52,7 @@ export function Coaching() {
                 <span className="relative text-xs font-semibold uppercase tracking-widest text-accent">
                   0{i + 1}
                 </span>
-                <p className="relative mt-2 font-display text-xl font-semibold">{t(`programs.${key}`)}</p>
+                <p className="relative mt-2 font-display text-heading-card font-semibold">{t(`programs.${key}`)}</p>
                 <span className="relative mt-4 inline-block text-sm text-muted-foreground transition-colors group-hover:text-accent">
                   Learn more →
                 </span>
