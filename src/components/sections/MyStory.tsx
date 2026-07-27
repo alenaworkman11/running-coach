@@ -1,8 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ParallaxImage } from "@/components/ui/ParallaxImage";
 
@@ -30,20 +29,13 @@ const storyImages: {
 
 export function MyStory() {
   const t = useTranslations("story");
-  const containerRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start end", "end start"] });
-  const lineHeight = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
   return (
-    <section id="story" ref={containerRef} className="relative py-24 md:py-32">
+    <section id="story" className="relative py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <SectionHeading title={t("title")} subtitle={t("subtitle")} />
 
         <div className="relative mt-20">
-          <div className="absolute left-4 top-0 hidden h-full w-px bg-border md:left-1/2 md:block">
-            <motion.div style={{ height: lineHeight }} className="w-full bg-gradient-to-b from-steel/70 via-accent/60 to-sky/45" />
-          </div>
-
           <div className="space-y-24 md:space-y-32">
             {paragraphKeys.map((key, i) => {
               const isEven = i % 2 === 0;
@@ -66,7 +58,7 @@ export function MyStory() {
                     }
                   >
                     <span className="mb-3 inline-block rounded-full bg-accent/10 px-3 py-1 text-xs font-semibold text-accent">
-                      {String(i + 1).padStart(2, "0")}
+                      {i + 1}
                     </span>
                     <p className="text-lg leading-relaxed md:text-xl">{t(`paragraphs.${key}`)}</p>
                   </div>
@@ -85,8 +77,6 @@ export function MyStory() {
                   ) : (
                     <div className="hidden md:block" aria-hidden />
                   )}
-
-                  <div className="absolute left-4 top-8 z-10 hidden h-4 w-4 -translate-x-1/2 rounded-full border-2 border-accent bg-background md:left-1/2 md:top-1/2 md:-translate-y-1/2" />
                 </motion.div>
               );
             })}
