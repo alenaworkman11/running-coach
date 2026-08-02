@@ -75,7 +75,7 @@ export function Header() {
           </nav>
 
           <div className="flex items-center gap-2 md:gap-3">
-            <LanguageSwitcher className="hidden sm:block" />
+            <LanguageSwitcher />
             <ThemeToggle />
             <a
               href="#contact"
@@ -105,9 +105,12 @@ export function Header() {
           >
             <div className="flex items-center justify-between p-4">
               <span className="font-display text-heading-brand font-bold">ALENA</span>
-              <button type="button" onClick={() => setMobileOpen(false)} aria-label="Close menu">
-                <X className="h-6 w-6" />
-              </button>
+              <div className="flex items-center gap-2">
+                <LanguageSwitcher />
+                <button type="button" onClick={() => setMobileOpen(false)} aria-label="Close menu">
+                  <X className="h-6 w-6" />
+                </button>
+              </div>
             </div>
             <nav className="flex flex-col gap-2 px-6 py-8">
               {navItems.map((item, i) => (
@@ -123,9 +126,6 @@ export function Header() {
                   {item.label}
                 </motion.a>
               ))}
-              <div className="mt-6 flex items-center gap-3">
-                <LanguageSwitcher />
-              </div>
             </nav>
           </motion.div>
         )}
