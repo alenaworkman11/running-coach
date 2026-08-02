@@ -150,7 +150,10 @@
     "name": "Adınız",
     "email": "E-posta",
     "message": "Koşu hedeflerinizi anlatın",
-    "send": "Mesaj Gönder"
+    "send": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesajınız iletildi!",
+    "error": "Mesaj gönderilemedi. Lütfen tekrar deneyin."
   },
   "footer": {
     "rights": "Tüm hakları saklıdır.",

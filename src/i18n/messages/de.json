@@ -150,7 +150,10 @@
     "name": "Dein Name",
     "email": "E-Mail",
     "message": "Erzähl mir von deinen Laufzielen",
-    "send": "Nachricht senden"
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "success": "Ihre Nachricht wurde zugestellt!",
+    "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten.",
