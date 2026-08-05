@@ -23,7 +23,13 @@ const storyImages: {
     src: "/img/story-3.jpg",
     aspect: "portrait",
     objectFit: "cover",
-    objectPosition: "center 95%",
+    objectPosition: "center 40%",
+  },
+  {
+    src: "/img/story-4.jpg",
+    aspect: "portrait",
+    objectFit: "cover",
+    objectPosition: "center 45%",
   },
 ];
 

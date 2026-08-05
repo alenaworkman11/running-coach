@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/layout/ThemeProvider";
 import { SmoothScroll } from "@/components/layout/SmoothScroll";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import "../globals.css";
+import "@/app/globals.css";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
