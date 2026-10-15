@@ -26,7 +26,7 @@
   "intro": {
     "text": "If you want to become healthier, stronger, more resilient, faster—or simply discover the joy of running—I'd love to help you get there.",
     "bio": "I'm a former National Olympic Team athlete, running coach, and lifelong runner with nearly 40 years of experience. I hold a Master's Degree in Athletics Coaching & Physical Education and an international coaching certification.",
-    "achievements": "I've completed 90 marathons and 300+ half marathons, raced across the United States and Europe, and I'm currently on a mission to run a marathon or half marathon in all 50 U.S. states (20 completed) and finish all World Marathon Majors (5 completed).",
+    "achievements": "I've completed 90 marathons and 300+ half marathons, raced across the United States and Europe, and I'm currently on a mission to run a marathon or half marathon in all 50 U.S. states (22 completed) and finish all World Marathon Majors (5 completed).",
     "personalized": "Every training plan I create is personalized—because every runner has a different goal, a different life, and a different journey.",
     "motto": "Run for Health. Run for Strength. Run for Life!",
     "mottoSub": "Every runner has a goal. Together, we'll make it happen."
@@ -43,7 +43,7 @@
       "marathons": "90 Marathons",
       "halfs": "300+ Half Marathons",
       "world": "Raced across the United States and Europe",
-      "states": "20 of 50 U.S. states completed",
+      "states": "22 of 50 U.S. states completed",
       "majors": "World Marathon Majors finisher",
       "marathonPB": "Marathon PB – 2:39",
       "halfPB": "Half Marathon PB – 1:12"
@@ -59,7 +59,7 @@
       "career": "I built a new career, earned a Master's in Management, and became a software engineer. But the track never left my heart.",
       "it": "Technology and athletics may seem worlds apart, yet both demand precision, patience, and continuous improvement—the same qualities that make a great coach.",
       "coach": "Today, I combine decades of elite athletic experience with a deep understanding of modern life. I help runners of every level discover their strength—and their joy.",
-      "mission": "I'm currently on a mission to run a marathon or half marathon in all 50 U.S. states. I've already completed races in 20 states and continue adding new ones every year. Running has also taken me across much of Europe, where I've raced in marathons and half marathons in many different countries."
+      "mission": "I'm currently on a mission to run a marathon or half marathon in all 50 U.S. states. I've already completed races in 22 states and continue adding new ones every year. Running has also taken me across much of Europe, where I've raced in marathons and half marathons in many different countries."
     }
   },
   "why": {
@@ -94,7 +94,7 @@
     "title": "My Running Journey",
     "subtitle": "Running has taken me around the world",
     "intro": "Not just numbers—a living map of races, roads, and relentless curiosity.",
-    "states": "20 U.S. states completed",
+    "states": "22 U.S. states completed",
     "statesGoal": "Goal: all 50 states",
     "europe": "Raced in dozens of cities across Europe",
     "cities": {

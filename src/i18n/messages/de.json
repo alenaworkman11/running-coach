@@ -26,7 +26,7 @@
   "intro": {
     "text": "Wenn du gesünder, stärker, widerstandsfähiger und schneller werden möchtest — oder einfach die Freude am Laufen entdecken willst — helfe ich dir gerne.",
     "bio": "Ich bin ehemalige Nationalmannschafts-Olympiateilnehmerin, Laufcoach und lebenslange Läuferin mit fast 40 Jahren Erfahrung. Master in Leichtathletik-Coaching und internationale Trainerzertifizierung.",
-    "achievements": "90 Marathons und 300+ Halbmarathons, Rennen in den USA und Europa. Mission: Marathon oder Halbmarathon in allen 50 US-Bundesstaaten (20 abgeschlossen) und alle World Marathon Majors (5 abgeschlossen).",
+    "achievements": "90 Marathons und 300+ Halbmarathons, Rennen in den USA und Europa. Mission: Marathon oder Halbmarathon in allen 50 US-Bundesstaaten (22 abgeschlossen) und alle World Marathon Majors (5 abgeschlossen).",
     "personalized": "Jeder Trainingsplan ist personalisiert — jeder Läufer hat ein anderes Ziel, ein anderes Leben, eine andere Reise.",
     "motto": "Lauf für Gesundheit. Lauf für Stärke. Lauf fürs Leben!",
     "mottoSub": "Jeder Läufer hat ein Ziel. Gemeinsam erreichen wir es."
@@ -43,7 +43,7 @@
       "marathons": "90 Marathons",
       "halfs": "300+ Halbmarathons",
       "world": "Rennen in den USA und Europa",
-      "states": "20 von 50 US-Bundesstaaten",
+      "states": "22 von 50 US-Bundesstaaten",
       "majors": "World Marathon Majors Finisher",
       "marathonPB": "Marathon-PB – 2:39",
       "halfPB": "Halbmarathon-PB – 1:12"
@@ -59,7 +59,7 @@
       "career": "Ich baute eine neue Karriere auf, machte einen Master in Management und wurde Software-Ingenieurin.",
       "it": "Technologie und Sport scheinen Welten auseinander — doch beide verlangen Präzision und kontinuierliche Verbesserung.",
       "coach": "Heute verbinde ich jahrzehntelange Elite-Erfahrung mit dem Verständnis für modernes Leben.",
-      "mission": "Mission: Marathon oder Halbmarathon in allen 50 US-Bundesstaaten. Bereits 20 abgeschlossen — jedes Jahr kommen neue dazu. Auch durch ganz Europa."
+      "mission": "Mission: Marathon oder Halbmarathon in allen 50 US-Bundesstaaten. Bereits 22 abgeschlossen — jedes Jahr kommen neue dazu. Auch durch ganz Europa."
     }
   },
   "why": {
@@ -94,7 +94,7 @@
     "title": "Meine Laufreise",
     "subtitle": "Laufen hat mich um die Welt geführt",
     "intro": "Nicht nur Zahlen — eine lebendige Karte aus Rennen und Straßen.",
-    "states": "20 US-Bundesstaaten abgeschlossen",
+    "states": "22 US-Bundesstaaten abgeschlossen",
     "statesGoal": "Ziel: alle 50 Staaten",
     "europe": "Rennen in Dutzenden europäischer Städte",
     "cities": {

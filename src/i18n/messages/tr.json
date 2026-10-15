@@ -26,7 +26,7 @@
   "intro": {
     "text": "Daha sağlıklı, güçlü, dayanıklı ve hızlı olmak — veya koşunun keyfini keşfetmek istiyorsanız — size yardımcı olmak isterim.",
     "bio": "Eski Milli Olimpiyat Takımı sporcusu, koşu koçu ve yaklaşık 40 yıllık deneyime sahip bir koşucuyum. Atletizm Koçluğu yüksek lisansı ve uluslararası koç sertifikası.",
-    "achievements": "90 maraton ve 300+ yarı maraton, ABD ve Avrupa'da yarışlar. 50 ABD eyaletinin tamamında maraton/yarı maraton hedefi (20 tamamlandı) ve tüm World Marathon Majors (5 tamamlandı).",
+    "achievements": "90 maraton ve 300+ yarı maraton, ABD ve Avrupa'da yarışlar. 50 ABD eyaletinin tamamında maraton/yarı maraton hedefi (22 tamamlandı) ve tüm World Marathon Majors (5 tamamlandı).",
     "personalized": "Her antrenman planı kişiselleştirilmiş — her koşucunun farklı bir hedefi, hayatı ve yolculuğu var.",
     "motto": "Sağlık için koş. Güç için koş. Hayat için koş!",
     "mottoSub": "Her koşucunun bir hedefi var. Birlikte başaracağız."
@@ -43,7 +43,7 @@
       "marathons": "90 Maraton",
       "halfs": "300+ Yarı Maraton",
       "world": "ABD ve Avrupa'da yarışlar",
-      "states": "50 eyaletten 20'si tamamlandı",
+      "states": "50 eyaletten 22'si tamamlandı",
       "majors": "World Marathon Majors finisher",
       "marathonPB": "Maraton PB – 2:39",
       "halfPB": "Yarı Maraton PB – 1:12"
@@ -59,7 +59,7 @@
       "career": "Yeni bir kariyer kurdum, yönetim yüksek lisansı aldım ve yazılım mühendisi oldum.",
       "it": "Teknoloji ve spor farklı dünyalar gibi görünse de ikisi de hassasiyet ve sürekli gelişim gerektirir.",
       "coach": "Bugün onlarca yıllık elit deneyimi modern yaşam anlayışıyla birleştiriyorum.",
-      "mission": "50 ABD eyaletinin tamamında maraton veya yarı maraton koşma misyonundayım. 20 eyalet tamamlandı — her yıl yenileri ekleniyor. Avrupa'nın dört bir yanında da yarıştım."
+      "mission": "50 ABD eyaletinin tamamında maraton veya yarı maraton koşma misyonundayım. 22 eyalet tamamlandı — her yıl yenileri ekleniyor. Avrupa'nın dört bir yanında da yarıştım."
     }
   },
   "why": {
@@ -94,7 +94,7 @@
     "title": "Koşu Yolculuğum",
     "subtitle": "Koşu beni dünyanın dört bir yanina götürdü",
     "intro": "Sadece rakamlar değil — yarışların ve yolların canlı haritası.",
-    "states": "20 ABD eyaleti tamamlandı",
+    "states": "22 ABD eyaleti tamamlandı",
     "statesGoal": "Hedef: 50 eyalet",
     "europe": "Avrupa'nın onlarca şehrinde yarışlar",
     "cities": {
