@@ -33,7 +33,7 @@ const statKeys = [
 const numericStats: Record<string, { value: number; suffix?: string }> = {
   marathons: { value: 90 },
   halfs: { value: 300, suffix: "+" },
-  states: { value: 20, suffix: "/50" },
+  states: { value: 22, suffix: "/50" },
 };
 
 export function ByTheNumbers() {
